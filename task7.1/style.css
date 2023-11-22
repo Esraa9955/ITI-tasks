@@ -1,0 +1,47 @@
+.input{
+  height: 100px;
+  
+  border: 1px solid green;
+}
+#btn{
+  border: none;
+  padding: 7px 20px;
+  background-color: green;
+  color: #fff;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+#output{
+  border: none;
+  padding: 7px 20px;
+  background-color: blue;
+  color: #fff;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+fieldset{
+  height: 100px;
+ 
+}
+#result{
+  margin: 20px 0px;
+  padding: 15px;
+  height: 120px;
+  
+}
+.color{
+  display: flex;
+  justify-content: center;
+   justify-content: space-around;
+
+}
+#red,#green,#yellow{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+h5{
+  font-size: 15px;
+
+}

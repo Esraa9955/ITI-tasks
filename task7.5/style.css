@@ -1,0 +1,79 @@
+.tableParent{
+
+  position: relative;
+  width: 900px;
+  height: 600px;
+  margin: 20px auto;
+  background-color: #eee;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+  
+.inp{
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  margin: 20px;
+  margin-top: 40px;
+  left:200px;
+  padding: 2px;
+  color: rgb(45, 41, 47);
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+  
+#age{
+  left:450px
+  
+}
+  
+.but{
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color:green;
+  color: white;
+  margin-top: 100px;
+  left: 370px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.validateName{
+  position: absolute;
+  margin: 20px;
+  margin-top: 80px;
+  left:200px;
+  color: red;
+  display: block;
+  font-size: 15px;
+}
+  
+.validateage{
+
+  position: absolute;
+  left:450px;
+  display: block;
+}
+  
+.checked{
+  display: none;
+
+
+}
+
+
+  
+  
+#myTableData{
+  position: absolute;
+  margin-top: 200px;
+  width: 400px;
+  left: 260px;
+}
+  
+  
+  

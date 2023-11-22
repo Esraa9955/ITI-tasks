@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+<body>
+  <div class="header" id="head1">
+    <h1 id="first">welcome from iti</h1>
+    <p class="myp">python track : with Js lect </p>
+    <span class="myp">this is a span</span>
+  </div>
+  <div class="myform">
+    <h2>choose your answer</h2>
+   <label for="yes">
+    Yes
+    <input type="radio" name="choose" value="yes" id="yes"></label>
+   <label for="no">
+    NO
+    <input type="radio" name="choose" value="no" id="no"></label>
+   <label for="none">
+    None
+    <input type="radio" name="choose" value="none" id="none"></label>
+    <hr>
+    <input oninput="getInput()" type="text" placeholder="Enter your name" id="input1" name="studentName" value="">
+    <p id="output"></p>
+    <button onclick="showAnswer()">show answer</button>
+    <div>
+      <a class="parent" id="link1" href="#google">Google</a>
+      <a id="link2" href="#twitter">Twitter</a>
+      <a id="link3" href="linkedin">linkedIn</a>
+      <button onclick="getAtt()">Links</button>
+    </div>
+  </div>
+  <div class="content test parent" id="content">
+    <h1 id="head2">our products</h1>
+    <p class="myp" id="result">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deleniti reprehenderit pariatur culpa dolores nisi, voluptatum dolor facilis possimus, officiis architecto saepe minima eum ipsa, ipsum quia. Libero, eveniet tenetur?</p>
+    <button onclick="changeContent()">Change Content</button>
+    <button onclick="changeStyle()">Change Style </button>
+  </div>
+  <!--<img src="./images/1.jpg" alt="">-->
+
+  <script src="script.js"></script>
+  
+  
+</body>
+</html>

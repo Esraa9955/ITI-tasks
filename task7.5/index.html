@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="tableParent">
+
+<input id="stdName"   type="text" class="inp"  placeholder="Enter student name" >
+<div  id="vName"   class="validateName"> *student name must be >3 </div>
+
+<input  id="age" type="text" class="inp" placeholder="enter student age"   >
+<div  id="vAge" class="validateage validateName "> *student age must be >18 </div>
+
+<button class="but"  onclick="add()">Add student</button>
+
+<div id="all"  class="all">
+
+<table id="myTableData" border="2px">
+  <tr>
+    <td><b>Count</b></td>
+    <td><b>Name</b></td>
+    
+    <td><b>Age</b></td>
+    
+    <td><b>Delete</b></td>
+  
+	
+  </tr>
+
+</table>
+
+</div></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
